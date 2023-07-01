@@ -1,0 +1,35 @@
+{
+	"name": "rivervanrain/qrcode",
+	"type": "elgg-plugin",
+	"description": "QR Code Generator for Elgg",
+    "license": "AGPL-3.0-or-later",
+	"keywords": ["qrcode", "content"],
+	"homepage": "https://wzm.me",
+	"authors": [
+		{
+		  "name": "Nikolai Shcherbin",
+		  "email": "support@wzm.me"
+		}
+	],
+	"require": {
+		"php": "^8.1",
+		"tecnickcom/tc-lib-barcode": "^1.17"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+	"conflict": {
+		"elgg/elgg": "<5.0"
+	},
+	"support": {
+		"source": "https://github.com/RiverVanRain/qrcode"
+	}
+}
