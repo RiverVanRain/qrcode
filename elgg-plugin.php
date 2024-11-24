@@ -10,9 +10,11 @@
 return [
 	'plugin' => [
 		'name' => 'QR Code Generator',
-		'version' => '1.0.0',
+		'version' => '2.0.0',
 		'activate_on_install' => true,
 	],
+	
+	'bootstrap' => \wZm\QRcode\Bootstrap::class,
 	
 	'actions' => [
 		'qrcode/generate' => [
